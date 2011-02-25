@@ -45,9 +45,18 @@ footer{
 
 a {
   font-size: 1em;
-  color: black;
+  color: #64B6B1;
   text-decoration: none;
+  text-shadow: black 2px 2px 2px;
+  -webkit-transition: all 0.45s linear;
 }
+
+a:hover {
+  color: white;
+  -webkit-transition: all 0.45s linear;
+}
+
+
 
 #banner {
   margin-left: 20px;
