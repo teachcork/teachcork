@@ -1,4 +1,7 @@
 body {
+  top:0;
+  
+  /*box-shadow: inset 0px 10px 1900px rgba(0, 0, 0, 0.2);*/
   background-color: #DED4B9/*#B0C7B7 #CDE8D5*/;
   color: #46433A;
 }
@@ -37,6 +40,7 @@ footer{
   -moz-border-radius: 14px;
   -webkit-border-radius: 14px;
   border-radius: 14px;
+  box-shadow: inset 0px 0px 220px rgba(0, 0, 0, 0.9);
 }
 
 a {
@@ -48,4 +52,8 @@ a {
 #banner {
   margin-left: 20px;
   margin-top: -21px;
+}
+
+#wrapper {
+  margin: 5px 20px;
 }
