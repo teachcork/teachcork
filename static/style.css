@@ -1,6 +1,5 @@
 body {
   top:0;
-  
   /*box-shadow: inset 0px 10px 1900px rgba(0, 0, 0, 0.2);*/
   background-color: #DED4B9/*#B0C7B7 #CDE8D5*/;
   color: #46433A;
@@ -34,13 +33,14 @@ footer{
   text-align: center;
   margin-top: 12em;
   background-color: #46433A;
+  background-image: url("bg.jpg");
   color: #64B6B1;
   font-size: 1em;
   padding: 40px;
   -moz-border-radius: 14px;
   -webkit-border-radius: 14px;
   border-radius: 14px;
-  box-shadow: inset 0px 0px 220px rgba(0, 0, 0, 0.9);
+  box-shadow: inset 10px 40px 100px rgba(0, 0, 0, 0.9);
 }
 
 a {
