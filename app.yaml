@@ -1,0 +1,22 @@
+application: teachcork
+version: dev
+runtime: python
+api_version: 1
+
+builtins:
+  - appstats: on
+  - remote_api: on
+  - datastore_admin: on
+
+handlers:
+  - url: /favicon.ico
+    static_files: static/img/favicon.ico
+    upload: static/img/favicon.ico
+
+  - url: /
+    static_files: static/index.html
+    upload: static/index.html
+
+  - url: /style.css
+    static_files: static/style.css
+    upload: static/style.css
