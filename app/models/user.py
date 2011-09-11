@@ -1,3 +1,4 @@
+from django.db import models
 
 
 class User(models.Model):
@@ -9,7 +10,7 @@ class User(models.Model):
     
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
-    email = models.EmailField(max_lenght=75)
+    email = models.EmailField(max_length=75)
     password = models.CharField(max_length=50)
     gender = models.CharField(max_length=1, choices=GENDER_CHOICES)
     ip_address = models.IPAddressField()
