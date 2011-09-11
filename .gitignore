@@ -1,0 +1,5 @@
+.coverage
+*.pyc
+*.DS_Store
+*~
+.emacs.desktop
