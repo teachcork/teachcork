@@ -17,5 +17,8 @@ class User(models.Model):
     city = models.CharField(max_length=50)
     state = models.CharField(max_length=50)
     country = models.CharField(max_length=50)
+    
+    class Meta:
+        app_label = 'app'
 
 
