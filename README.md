@@ -9,11 +9,16 @@ Single package website and installation command is supplied here for documentati
 development environment you *MUST* perform a single: `pip install -r requirements-dev.pip`
 
 First we need a virtual mahchine. We use [python2.7](http://www.python.org) -- `brew install python` or `whatever`
+
 to handle pithon packages we use [pip](http://pypi.python.org/pypi/pip) -- `easy_install pip`
+
 Then we need a way to isolate the project environment using [virtualenv](http://pypi.python.org/pypi/virtualenv) -- `pip install virtualenv`
+
 and just because we are a bunch of lazy fat asses we use [virtualenvwraper](http://pypi.python.org/pypi/virtualenvwraper) -- `pip install virtualenvwrapper`
 
 Teachcorck website is powered with a pony: [django1.3](http://www.djangoproject.com) -- `pip install django`
+
+
 
 And thats pretty much what you have to know by now of what we use.
 
