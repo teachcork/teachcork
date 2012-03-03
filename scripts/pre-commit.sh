@@ -11,8 +11,7 @@ production_checks(){
     tput bold
     tput setaf 4
     echo
-    echo "Pylint is rating your code..."
-    echo "this dont prevent you from commiting but tells you if you are improving or fucking the code ;)..."
+    echo "Pylint is rating your code"
     pylint app | grep rated
     echo
     tput sgr0
