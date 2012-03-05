@@ -10,15 +10,15 @@ development environment you *MUST* perform a single: `pip install -r requirement
 
 First we need a virtual mahchine. We use [python2.7](http://www.python.org) -- `brew install python` or `whatever`
 
-to handle pithon packages we use [pip](http://pypi.python.org/pypi/pip) -- `easy_install pip`
+to handle python packages we use [pip](http://pypi.python.org/pypi/pip) -- `easy_install pip`
 
 Then we need a way to isolate the project environment using [virtualenv](http://pypi.python.org/pypi/virtualenv) -- `pip install virtualenv`
 
 and just because we are a bunch of lazy fat asses we use [virtualenvwraper](http://pypi.python.org/pypi/virtualenvwraper) -- `pip install virtualenvwrapper`
 
-Teachcorck website is powered with a pony: [django1.3](http://www.djangoproject.com) -- `pip install django`
+Teachcorck website is powered with a pony: [django1.3](http://www.djangoproject.com). Particualry the non-rel branch. (see requirements.txt for more information)
 
-
+Finally we are using mongolabs on heroku and tastypie for the REST api server side. (A modified version to handle non-rel stuff too)
 
 And thats pretty much what you have to know by now of what we use.
 

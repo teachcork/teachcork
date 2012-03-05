@@ -2,4 +2,16 @@
 *.pyc
 *.DS_Store
 *~
+#*#
+#*
+*#
+.#*
 .emacs.desktop
+.emacs.desktop.lock
+.tox
+*.egg-info
+.db
+.settings_local
+.project
+coverage.xml
+a.out
